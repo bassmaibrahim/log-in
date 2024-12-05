@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+}
+:root {
+  --main-color: #d8d2c2;
+  --secondary-color: #3e3232;
+  --tertiary-color: #a79277;
+}
+a {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+a:hover {
+  text-decoration-line: underline;
+  color: var(--secondary-color);
+}
+.main-bg {
+  background-color: var(--main-color);
+}
+
+h2 {
+  color: var(--tertiary-color);
+  margin-bottom: 8px;
+}
+.login button {
+  margin: 20px 0;
+}
+input::placeholder {
+  color: rgb(222, 211, 211);
+}
+
+.sign-label {
+  color: #3e3232;
+}
+.main-btn {
+  background-color: var(--tertiary-color);
+  border: 2px solid var(--tertiary-color);
+  color: white;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.main-btn:hover {
+  background-color: transparent;
+  color: var(--tertiary-color);
+  border: 2px solid var(--tertiary-color);
+}
+.logo a:hover {
+  text-decoration-line: none;
+}
+.log {
+  color: var(--secondary-color);
+}
+.home {
+  height: 70%;
+}
+
+.smart-login {
+    width: 80%;
+    margin: 10px auto;
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .log-in {
+    background: var(--main-color);
+    color: white;
+    text-align: center;
+    flex-direction: column;
+    width: 70%;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+  }
+  input {
+    margin: 10px 0;
+    padding: 6px 12px;
+    background-color: var(--tertiary-color);
+    outline: none;
+    border: 1.5px solid black;
+    border-radius: 15px;
+    color: white;
+  }
